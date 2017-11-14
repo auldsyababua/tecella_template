@@ -1,20 +1,62 @@
-<!doctype html>
+<!DOCTYPE html>
+<html>
 
-<html lang="en">
 <head>
-  <meta charset="utf-8">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+  <link type="text/css" rel="stylesheet" href="css/styles.css" />
 
-  <title>The HTML5 Herald</title>
-  <meta name="Colin Aulds" content="tecellis.com">
-
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
-
-  <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-  <![endif]-->
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
 <body>
-  <script src="js/scripts.js"></script>
+
+  <!-- Dropdown Structure: each ul respresents one of the 3 dropdown menus.
+       You can add or subtract these as you see fit
+       The #! is just a palceholder for a hyperlink. Fill in links as you see fit.
+       You can also edit item1, item2, etc to change the displa text for those links
+       Finally, you can name your tabs by replacing the "dropdown 1, dropdown2, etc"
+     -->
+  <ul id="dropdown1" class="dropdown-content">
+    <li><a href="#!">item 1</a></li>
+    <li class="divider"></li>
+    <li><a href="#!">item 2</a></li>
+    <li class="divider"></li>
+    <li><a href="#!">item 3</a></li>
+  </ul>
+  <ul id="dropdown2" class="dropdown-content">
+    <li><a href="#!">item 4</a></li>
+    <li class="divider"></li>
+    <li><a href="#!">item 5</a></li>
+    <li class="divider"></li>
+    <li><a href="#!">item 6</a></li>
+  </ul>
+  <ul id="dropdown3" class="dropdown-content">
+    <li><a href="#!">item 7</a></li>
+    <li class="divider"></li>
+    <li><a href="#!">item 8</a></li>
+    <li class="divider"></li>
+    <li><a href="#!">item 9</a></li>
+  </ul>
+  <nav>
+    <div class="nav-wrapper">
+      <img class="logo" src="images/logo-slogan.jpg" alt="Logo">
+      <ul class="right hide-on-med-and-down">
+        <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Dropdown 1<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a class="dropdown-button" href="#!" data-activates="dropdown2">Dropdown 2<i class="material-icons right">arrow_drop_down</i></a></li>
+        <!-- Dropdown Trigger -->
+        <li><a class="dropdown-button" href="#!" data-activates="dropdown3">Dropdown 3<i class="material-icons right">arrow_drop_down</i></a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script type="text/javascript" src="js/index.js"></script>
 </body>
+
 </html>
