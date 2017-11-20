@@ -1,3 +1,8 @@
 .logo {
     height: -webkit-fill-available;
 }
+
+/*hides contact on page load*/
+.contact .profile{
+  display: none
+}
