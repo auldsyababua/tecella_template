@@ -2,7 +2,7 @@
     height: -webkit-fill-available;
 }
 
-/*hides contact on page load*/
-.contact .profile{
+/*hides contact and profile on page load*/
+.contact, .profile {
   display: none
 }
