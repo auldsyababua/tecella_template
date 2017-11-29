@@ -1,5 +1,6 @@
 $(document).ready(function() {
-  $(".dropdown-button").dropdown({hover: true});
+  $(".hover").dropdown({hover: true});
+  $(".no-hover").dropdown({hover: false});
   $(".button-collapse").sideNav();
 
   //goes to home page

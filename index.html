@@ -23,21 +23,42 @@
      -->
 
 
-  <ul id="dropdown1" class="dropdown-content">
+  <ul id="desktopDropdown1" class="dropdown-content">
     <li class='item1'><a href="#!">item 1</a></li>
     <li class="divider"></li>
     <li class='item2'><a href="#!">item 2</a></li>
     <li class="divider"></li>
     <li class='item3'><a href="#!">item 3</a></li>
   </ul>
-  <ul id="dropdown2" class="dropdown-content">
+  <ul id="desktopDropdown2" class="dropdown-content">
     <li class='item4'><a href="#!">item 4</a></li>
     <li class="divider"></li>
     <li class='item5'><a href="#!">item 5</a></li>
     <li class="divider"></li>
     <li class='item5'><a href="#!">item 6</a></li>
   </ul>
-  <ul id="dropdown3" class="dropdown-content">
+  <ul id="desktopDropdown3" class="dropdown-content">
+    <li class='item6'><a href="#!">item 7</a></li>
+    <li class="divider"></li>
+    <li class='item7'><a href="#!">item 8</a></li>
+    <li class="divider"></li>
+    <li class='item8'><a href="#!">item 9</a></li>
+  </ul>
+  <ul id="mobileDropdown1" class="dropdown-content">
+    <li class='item1'><a href="#!">item 1</a></li>
+    <li class="divider"></li>
+    <li class='item2'><a href="#!">item 2</a></li>
+    <li class="divider"></li>
+    <li class='item3'><a href="#!">item 3</a></li>
+  </ul>
+  <ul id="mobileDropdown2" class="dropdown-content">
+    <li class='item4'><a href="#!">item 4</a></li>
+    <li class="divider"></li>
+    <li class='item5'><a href="#!">item 5</a></li>
+    <li class="divider"></li>
+    <li class='item5'><a href="#!">item 6</a></li>
+  </ul>
+  <ul id="mobileDropdown3" class="dropdown-content">
     <li class='item6'><a href="#!">item 7</a></li>
     <li class="divider"></li>
     <li class='item7'><a href="#!">item 8</a></li>
@@ -49,31 +70,20 @@
     <div class="nav-wrapper">
       <img class="logo" src="images/logo-slogan.jpg" alt="Logo">
       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-      <!--This is the main nav bar-->
+      <!--This is the main nav bar for desktop-->
       <ul class="right hide-on-med-and-down">
-        <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Dropdown 1<i class="material-icons right">arrow_drop_down</i></a></li>
-        <li><a class="dropdown-button" href="#!" data-activates="dropdown2">Dropdown 2<i class="material-icons right">arrow_drop_down</i></a></li>
-        <li><a class="dropdown-button" href="#!" data-activates="dropdown3">Dropdown 3<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a class="dropdown-button hover" href="#!" data-activates="desktopDropdown1">Dropdown 1<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a class="dropdown-button hover" href="#!" data-activates="desktopDropdown2">Dropdown 2<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a class="dropdown-button hover" href="#!" data-activates="desktopDropdown3">Dropdown 3<i class="material-icons right">arrow_drop_down</i></a></li>
       </ul>
       <!--This is the mobile nav bar-->
       <ul class="side-nav" id="mobile-demo">
-        <li class='item1'><a href="#!">dropdown 1</a></li>
-        <li class='item2'><a href="#!">dropdown 2</a></li>
-        <li class='item3'><a href="#!">dropdown 3</a></li>
+        <li><a class="dropdown-button no-hover" href="#!" data-activates="mobileDropdown1">Dropdown 1<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a class="dropdown-button no-hover" href="#!" data-activates="mobileDropdown2">Dropdown 2<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a class="dropdown-button no-hover" href="#!" data-activates="mobileDropdown3">Dropdown 3<i class="material-icons right">arrow_drop_down</i></a></li>
       </ul>
     </div>
   </nav>
-  <!--
-
-  <nav>
-    <div class="nav-wrapper">
-      <img class="logo" src="images/logo-slogan.jpg" alt="Logo">
-      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-      <ul class="right hide-on-med-and-down">
-
-      </ul>
-    </div>
-  </nav>-->
 
   <section class="page defaultPage">
     <h4>This is your default home page that shows on page load. Click item 1 or 2 above to see show/hide</h1>
